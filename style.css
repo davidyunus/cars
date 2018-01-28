@@ -19,12 +19,12 @@ ul {
 
 li {
   color: #FFF;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Graduate', sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   display: inline-block;
-  width: 80px;
+  width: 100px;
 }
 
 li:hover {
@@ -33,7 +33,7 @@ li:hover {
 
 h1 {
   color: #466995;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Graduate', sans-serif;
   font-size: 32px;
   font-weight: 300;
   text-transform: uppercase;
@@ -49,7 +49,7 @@ h2 {
 
 h3 {
   color: #466995;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Graduate', sans-serif;
   font-size: 18px;
   text-align: center;
   font-weight: 700;
@@ -59,7 +59,7 @@ h3 {
 
 h4 {
   color: #466995;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Graduate', sans-serif;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -101,6 +101,8 @@ footer {
   display: inline-block;
   height: 150px;
   width: 200px;
+  padding: 1px;
+  position: center;
 }
 
 .answer:hover {
@@ -108,5 +110,8 @@ footer {
   color: #FFF;
 }
 
-div.answer{
+.mesin {
+  height: 100px;
+  padding-bottom: 5px;
+  position: relative;
 }
